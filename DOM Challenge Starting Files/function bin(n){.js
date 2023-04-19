@@ -1,4 +1,4 @@
-function bin(n){
+function binary(n){
     var a = n%2;
     var d =[a];
     var b = Math.floor(n / 2);
@@ -11,4 +11,5 @@ function bin(n){
     d.reverse()
     return 'Binary of ' +n + " is " + d.join("");
 }
-console.log(bin(500));
+var num=prompt("Enter a number");
+console.log(binary(num));
