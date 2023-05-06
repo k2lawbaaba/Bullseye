@@ -1,0 +1,245 @@
+/* html
+{
+    background-color: #D2DAFF;
+   /** background-image: url(../img/prop2.jpg);**/
+/*}*/
+
+body
+{
+    margin: 0px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAF7F0;
+    width: 100%;
+}
+
+
+.top_container{
+    background-color: #EAF6F6;   
+    width: 100%; 
+    margin-top: 0;
+}
+
+.inner-container
+{
+    margin-top: 0px;
+}
+
+.navigation {
+    margin: 0 auto;
+    /* background-color: #11999E; */
+    height: 50px;
+    padding-top: 45px;
+}
+.test{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 40px;
+    color: #191825;
+    font-weight: bold;
+    font-size: 22px;
+    width: auto;
+}
+.navigation a:hover
+{
+    /* background-color: #11999E; */
+    color: #11999E;
+}
+
+.navigation img{
+    width: 77px;
+    height: 63px;
+    position: absolute;
+    left: 22px;
+    top: 20px;
+}
+.top_container p{
+    margin-block-end:0;
+}
+
+h1
+{
+    color:#66BFBF;
+    font-size: 90px;
+    margin: 30px auto 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2
+{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 2.5rem;
+    margin-top: 0;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+}
+.top_container p
+{
+  
+    font-family: 'Mynerve', cursive;
+    text-transform:capitalize;
+    font-size: 30px;
+    margin: 0 auto;
+    font-weight: bold;
+    /**font-family: 'Playfair Display', serif;**/
+    
+}
+.middle-container
+{
+   margin: 100px auto;
+   width: 100%;
+}
+
+.bottom-container
+{
+    margin-top: 30px;
+    background-color: #11999E;
+    height: 100px;
+    padding-top: 30px;
+    width: auto;
+}
+.profile img{
+    height: 204px;
+    width: 205px;
+    border-radius: 100%;
+    margin:0 auto ;
+}
+span
+{
+    font-weight: bold;
+}
+#intro
+{
+    margin:auto;
+    width: 30%;
+    
+}
+#bottom_cloud
+{
+    position:absolute;
+}
+
+#top_cloud
+{
+    position:relative;
+    left: 280px;
+    margin-bottom: 50px;
+    top: 50px;
+}
+.Excel
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web_dev
+{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.SQL
+{
+    width: 25%; 
+    float: right;
+    margin-left: 30px;
+
+}
+
+a
+{
+    padding: 20px;
+    text-decoration: none;
+    color:#66BFBF ;
+    margin-top: 20px;
+    font-style: normal;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+ a:hover
+ {
+    color: #EAF6F6;
+ }
+.skill-row
+{
+    width: 50%;
+    margin: 70px auto 100px;
+    text-align: left;
+    
+}
+.skill-row p
+{
+    font-size: 1rem;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+    margin: 50px auto;
+    border-color: grey;
+}
+.btn
+{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover
+{
+  background: #11f2c5;
+  background-image: -webkit-linear-gradient(top, #11f2c5, #3498db);
+  background-image: -moz-linear-gradient(top, #11f2c5, #3498db);
+  background-image: -ms-linear-gradient(top, #11f2c5, #3498db);
+  background-image: -o-linear-gradient(top, #11f2c5, #3498db);
+  background-image: linear-gradient(to bottom, #11f2c5, #3498db);
+  text-decoration: none
+}
+ .bottom-container p{
+    color: #EAF6F6;
+    font-size: xx-small;
+    padding-top: 20px;
+    
+ }
+ #sql_engineer{
+    color: #11999E;
+ }
+
+ .contact-me{
+       padding: 10px auto;
+ }
+ .contact-me p{
+    width: 40%;
+    margin: 40px auto 60px;
+ }
+ .dark{
+    background-color: black;
+    color: white;
+ }
+ .textColor{
+    color:white;
+ }
+ #moonLight{
+    border: 0;
+    border-radius: 100%;
+ }
